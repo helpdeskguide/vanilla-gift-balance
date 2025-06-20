@@ -11,42 +11,50 @@ import sys
 
 # -- Project information -----------------------------------------------------
 
-project = 'Activate Peacock TV on Your Device'
-copyright = '2025, NBCUniversal'
-author = 'NBCUniversal'
+project = 'Check Your Vanilla Gift Card Balance'
+copyright = '2025, Vanilla'
+author = 'Vanilla Gift Card Team'
 
 # The full version, including alpha/beta/rc tags
 release = '1.0.0'
 
+# -- General configuration ---------------------------------------------------
+
+# Add any Sphinx extension module names here, as strings.
+extensions = []
+
+# Templates path
+templates_path = ['_templates']
+
+# Patterns to ignore when looking for source files.
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+
 # -- HTML output settings ----------------------------------------------------
 
 # Title shown in the browser tab and top of HTML pages
-html_title = "Activate Peacock TV at PeacockTV.com/tv – Step-by-Step Guide"
+html_title = "Check Your Vanilla Gift Card Balance at vanillagift.com – Step-by-Step Guide"
 
 # Optional short title (e.g., for nav bar)
-html_short_title = "Peacock TV Activation"
+html_short_title = "Vanilla Balance Check"
 
-# Favicon (place favicon.ico in the root or _static folder)
-html_favicon = 'favicon.ico'  # Place your favicon in the _static directory
+# Favicon (place favicon.ico in the root or _static folder if available)
+html_favicon = 'favicon.ico'
 
-# Theme (you can uncomment this if using ReadTheDocs or others)
+# Theme (you can uncomment and set a different one if installed)
 # html_theme = 'sphinx_rtd_theme'
+html_theme = 'alabaster'  # Default Sphinx theme
 
-# Hide "View page source"
+# Hide the "View page source" link
 html_show_sourcelink = False
 
-# Allow raw HTML blocks in .rst files
+# Allow raw HTML in .rst files (important for embedded buttons, videos, etc.)
 html_allow_unsafe = True
 
 # Theme customization options
 html_theme_options = {
     'show_powered_by': False,
+    'description': 'Step-by-step instructions to check your Vanilla Gift Card balance online.',
 }
 
-# Paths to templates and static files
-templates_path = ['_templates']
-# Uncomment the line below if you have custom styles, favicon, etc.
+# Paths to static files like custom CSS or JavaScript (optional)
 # html_static_path = ['_static']
-
-# Patterns to ignore when looking for source files
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
