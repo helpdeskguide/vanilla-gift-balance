@@ -10,8 +10,7 @@ Visit `vanillagift.com <#>`_ to check your Vanilla Gift Card balance in just a f
 
 .. image:: Button.png
    :alt: Check Vanilla Gift Card Balance
-   :target: https://sites.google.com/view/vanillagiftbalancecheck/
-
+   :target:  https://pre.im/?OFdrUKABqhgq77MkXhQDnRJtxnyHKDr5FyLNrZqyjeeSPBPtNbd0THjCnkXYG04tahMNo7Swb1exe1NvAKfxno
 .. raw:: html
 
     </div>
